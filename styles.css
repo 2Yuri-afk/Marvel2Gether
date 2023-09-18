@@ -1,0 +1,235 @@
+.logoheader {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #202020;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 95%;
+}
+
+p {
+  color: rgb(207, 207, 207);
+  font-family: Consolas;
+  text-align: center;
+  font-size: 20px;
+}
+
+.phasenumber {
+  width: 30%;
+  align-self: center;
+  padding: 2em;
+}
+
+#logo {
+  max-width: 500px;
+  min-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+}
+
+body {
+  background-color: #952323;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+}
+
+.title {
+  max-width: 100%;
+}
+
+.tit-syn {
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.easy-nav {
+  position: fixed;
+  background-color: gray;
+  bottom: 35px;
+  right: 35px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.movie {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.phase {
+  margin: 10px auto;
+  background-color: #202020;
+  border-radius: 20px;
+  max-width: 90%;
+  padding: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.phase:hover,
+.phase:focus {
+  transform: translateY(-20px);
+  background-color: #151414;
+}
+
+.phase-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3e3a3a;
+  margin: auto;
+  max-width: 70%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+}
+
+.phase2 {
+  margin: 10px auto;
+  background-color: #202020;
+  border-radius: 20px;
+  max-width: 90%;
+  padding: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.phase2:hover,
+.phase2:focus {
+  transform: translateY(-20px);
+  background-color: #2d1414;
+}
+
+.phase-container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #5e1f21;
+  margin: auto;
+  max-width: 70%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6 px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+}
+
+.phase3 {
+  margin: 10px auto;
+  background-color: #202020;
+  border-radius: 20px;
+  max-width: 90%;
+  padding: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.phase3:hover,
+.phase3:focus {
+  transform: translateY(-20px);
+  background-color: #373737;
+}
+
+.phase-container3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #5b5a5c;
+  margin: auto;
+  max-width: 70%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6 px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #852525;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3e1818;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.easy-nav {
+  position: fixed;
+  background-color: #202020;
+  bottom: 35px;
+  right: 40px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+#plus {
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 100px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-evenly;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.15s linear;
+}
+
+.show {
+  transform: scaleY(1);
+}
+
+.nav-option {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav-option1 {
+  background-color: #3e3a3a;
+}
+
+#nav-option2 {
+  background-color: #5e1f21;
+}
+
+#nav-option3 {
+  background-color: #5b5a5c;
+}
